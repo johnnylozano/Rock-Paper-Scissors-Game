@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <script src="script.js" defer></script>
+      <title>Rock, Paper, Scissors!</title>
+   </head>
+   <body>
+      <header>
+         <h1>Rock Paper Scissors</h1>
+         <div class="score">
+            <div class="player-score-container">
+               <p class="player-text">Player Score:</p>
+               <p class="player-score">0</p>
+            </div>
+            <div class="cpu-score-container">
+               <p class="cpu-text">CPU Score:</p>
+               <p class="cpu-score">0</p>
+            </div>
+         </div>
+      </header>
+      <div class="game">
+         <div class="gameplay">
+            <div class="round">
+               <p class="round-text">Round</p>
+               <p class="round-number">1</p>
+            </div>
+            <h2 class="resolution">Click to play! First to 3 Points Wins!</h2>
+            <div class="selection-container">
+               <div class="selection player-selection">
+                  <p class="player-text">You picked:</p>
+                  <p class="player-pick"></p>
+               </div>
+               <div class="selection cpu-selection">
+                  <p class="cpu-text">CPU picked:</p>
+                  <p class="cpu-pick"></p>
+               </div>
+            </div>
+         </div>
+         <div class="icon">
+            <div class="icon-item rock">
+               <img src="./img/rock_icon.svg" alt="Rock" />
+            </div>
+            <div class="icon-item paper">
+               <img src="./img/paper_icon.svg" alt="Rock" />
+            </div>
+            <div class="icon-item scissors">
+               <img src="./img/scissors_icon.svg" alt="Rock" />
+            </div>
+         </div>
+      </div>
+      <footer>
+         <span class="footer__copyright"
+            >&copy; Johnny Lozano 2022. All rights reserved.</span
+         >
+      </footer>
+   </body>
+</html>
