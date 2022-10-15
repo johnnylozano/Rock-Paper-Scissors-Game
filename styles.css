@@ -22,7 +22,7 @@ body {
    font-family: "Roboto", sans-serif;
    font-size: 1.4rem;
    line-height: 1.5;
-   background-color: var(--background-clr);
+   background-image: url(./img/dark_bg.png);
    color: var(--text-clr);
    display: flex;
    flex-direction: column;
