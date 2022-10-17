@@ -98,7 +98,7 @@ const winRound = () => {
 
    roundNumberDisplay.textContent = ++roundNumber;
 
-   if (playerScoreNumber === 3) {
+   if (playerScoreNumber === 5) {
       return resetGame();
    }
 };
@@ -108,13 +108,13 @@ const loseRound = () => {
 
    roundNumberDisplay.textContent = ++roundNumber;
 
-   if (cpuScoreNumber === 3) {
+   if (cpuScoreNumber === 5) {
       return resetGame();
    }
 };
 
 const resetGame = () => {
-   if (playerScoreNumber === 3) {
+   if (playerScoreNumber === 5) {
       resolution.textContent = "You won the game! Click to play again.";
       resolution.style.color = "#00ffff";
    } else {
