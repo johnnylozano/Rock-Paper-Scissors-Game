@@ -17,3 +17,6 @@ A simultaneous, zero-sum game, it has three possible outcomes: a draw, a win or 
 - Rock beats scissors
 - Scissors beats paper
 - Paper beats rock
+
+## Demo: https://johnnylozano.github.io/Rock-Paper-Scissors-Game/
+Simply click on the icons to play!
