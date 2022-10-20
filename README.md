@@ -21,4 +21,4 @@ A simultaneous, zero-sum game, it has three possible outcomes: a draw, a win or 
 ---
 
 ## Demo: https://johnnylozano.github.io/Rock-Paper-Scissors-Game/
-Simply click on the icons to play!
+Simply click on the icons to start playing!
