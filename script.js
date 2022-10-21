@@ -25,13 +25,18 @@ scissors.addEventListener("click", () => {
 });
 
 /**
- *
+ * Generates random number to determine CPU's selection
  * @returns Random number (0, 1, or 2)
  */
 const getComputerChoice = () => {
    return choices[Math.floor(Math.random() * 3)];
 };
 
+/**
+ * Updates game display info based on player & cpu selection.
+ * @param {*} playerChoice
+ * @param {*} cpu
+ */
 const updateDisplay = (playerChoice, cpu) => {
    choices.forEach((e) => {
       if (e.classList) {
