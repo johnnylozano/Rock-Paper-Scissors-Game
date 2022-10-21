@@ -1,3 +1,4 @@
+/*! === VARIABLES === */
 :root {
    --background-clr: #1f1f21;
    --header-clr: #121212;
@@ -5,6 +6,7 @@
    --text-accent-clr: #ffffff;
 }
 
+/*! === BASE === */
 *,
 *::before,
 *::after {
@@ -30,6 +32,7 @@ body {
    width: 100vw;
 }
 
+/*! === GAME ICONS */
 img {
    display: block;
    max-width: 100%;
@@ -58,12 +61,22 @@ img:hover {
    transition: background-color 0.7s linear;
 }
 
+.icon {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   max-height: 50vh;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
 .player-active.cpu-active {
    background-color: #fabb5a;
    border-radius: 35%;
    border: 0.4rem solid var(--text-accent-clr);
 }
 
+/*! === HEADER === */
 header {
    background-color: var(--header-clr);
    display: flex;
@@ -87,6 +100,7 @@ h2 {
    color: var(--text-accent-clr);
 }
 
+/*! === GAME INFO TEXT === */
 .score {
    display: flex;
    gap: 3rem;
@@ -142,15 +156,7 @@ h2 {
    padding: 1rem;
 }
 
-.icon {
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   max-height: 50vh;
-   margin-top: auto;
-   margin-bottom: auto;
-}
-
+/*! === FOOTER === */
 footer {
    display: flex;
    flex-direction: column;
@@ -161,12 +167,15 @@ footer {
    background-color: var(--header-clr);
 }
 
+/*! === MEDIA QUERIES === */
+/* --- Tablets --- */
 @media screen and (max-width: 720px) {
    .resolution {
       font-size: 2.5rem;
    }
 }
 
+/* --- Phones --- */
 @media screen and (max-width: 480px) {
    h1 {
       font-size: 2.2rem;
